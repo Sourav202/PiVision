@@ -1,0 +1,1 @@
+# NEW (camera → motion/gesture)
