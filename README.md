@@ -1,2 +1,2 @@
-# QNX-Real-Time-Vision-Input-System
-TBD
+# PiVision
+This project demonstrates a distributed vision-processing system built around a Raspberry Pi 5 running QNX and a Windows-based server. The QNX device captures short video clips using a camera module and transmits them to the server, where OpenCV and MediaPipe are used to analyze the footage and extract meaningful visual information. By separating data acquisition on the embedded system from processing on the server, the project illustrates an effective approach to integrating camera-based sensing with a QNX-based platform.
