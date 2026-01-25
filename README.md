@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 ### 1. Windows Server Setup
 
-1. Navigate to the directory containing `pc` directory.
+1. Navigate to the `pc` directory.
 
 2. Install the required Python dependencies:
 
