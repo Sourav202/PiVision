@@ -20,21 +20,6 @@ pip install -r requirements.txt
 
 ---
 
-## Project Structure
-
-```
-QNX-Real-Time-Vision-Input-System/
-│
-├── main.py              # Entry point
-├── requirements.txt     # Python dependencies
-├── README.md            # Project documentation
-└── src/                 # Core logic (vision, input handling, utils)
-```
-
-*(Structure may vary depending on your local version.)*
-
----
-
 ## Build and Run
 
 ### Prerequisites
@@ -107,3 +92,7 @@ The Pi will continuously poll the server for commands.
 * OpenCV community
 * MediaPipe by Google
 * QNX real-time systems documentation
+
+Note: This project requires both devices (QNX Raspberry Pi 5 and the Windows machine) to be on the same local network (a hotspot is recommended).
+
+Your QNX OS on the Raspberry Pi must include the camera demo/sample code for the Raspberry Pi Camera Module 3 that your project uses. QNX provides sample camera applications (e.g., camera_example3_viewfinder and related samples) as part of the QNX Software Development Platform (SDP) and sample repositories. It can be found here: https://gitlab.com/qnx/projects/camera-projects/applications/camera_example3_viewfinder
